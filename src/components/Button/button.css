@@ -1,0 +1,9 @@
+.cls_button button{
+    width: 150px;
+    margin-bottom: 60px;
+  
+    color: #893446;
+    padding: 10px;
+    background-color: #FFA645;
+    border: 1.5px solid #893446;
+}

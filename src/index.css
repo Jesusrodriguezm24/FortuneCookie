@@ -1,0 +1,10 @@
+ :root {
+  margin: 0px;
+  font-family: 'Fredoka', sans-serif;
+}
+*,
+*::after,
+*::before{
+  margin: 0px;
+  padding: 0px;
+}
