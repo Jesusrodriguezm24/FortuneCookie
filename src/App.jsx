@@ -38,7 +38,7 @@ function App() {
         <div>
             <Phrase phrase={arrPhrases.phrase}/>
         </div>
-        <div className="cls_button">
+        <div>
             <Button handlered={changePhrse}/>
         </div>
         <div>

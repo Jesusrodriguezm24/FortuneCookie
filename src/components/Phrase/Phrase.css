@@ -4,6 +4,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-bottom: 30px;
   
    border-radius: 10%;
    border-top-left-radius: 30%;
@@ -12,4 +13,19 @@
    color: #727272;
  
    background-color: #f8f2f2;
- }
+}
+
+@media screen and (min-width:380px) and (max-width:576px) {
+  .phrase_container{
+    width: 360px;
+    height: 125px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width:577px) and (max-width:1280px) {
+  .phrase_container{
+    width: 360px;
+    height: 125px;
+    margin-bottom: 60px;
+  }
+}

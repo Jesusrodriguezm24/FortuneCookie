@@ -1,9 +1,27 @@
 .cls_button button{
     width: 150px;
-    margin-bottom: 60px;
+    margin-bottom: 170px;
   
     color: #893446;
     padding: 10px;
     background-color: #FFA645;
     border: 1.5px solid #893446;
+}
+
+@media screen and (min-width:380px) and (max-width:576px) {
+    .cls_button button{
+        width: 170px;
+        margin-bottom: 150px;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+  
+@media screen and (min-width:577px) and (max-width:1280px) {
+    .cls_button button{
+        width: 200px;
+        margin-bottom: 170px;
+        padding: 16px;
+        font-size: 20px;
+    }
 }
