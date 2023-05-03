@@ -1,3 +1,6 @@
+.cls_button{
+   transition: 1s;
+}
 .cls_button button{
     width: 150px;
     margin-bottom: 170px;
@@ -6,6 +9,9 @@
     padding: 10px;
     background-color: #FFA645;
     border: 1.5px solid #893446;
+
+    cursor: pointer;
+      
 }
 
 @media screen and (min-width:380px) and (max-width:576px) {

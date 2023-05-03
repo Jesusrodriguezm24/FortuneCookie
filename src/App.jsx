@@ -33,7 +33,7 @@ function App() {
     <>
       <div className="container_app" style={{backgroundImage:`url("${rutaImg}")`}}> 
         <div className="title_app">
-            <h1>GALLETAS DE LA FORTUNA</h1>
+            <h1>GALLETA DE LA FORTUNA</h1>
         </div>
         <div>
             <Phrase phrase={arrPhrases.phrase}/>
